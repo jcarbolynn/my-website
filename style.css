@@ -1,4 +1,80 @@
-html {
-  height: 100%;
-  width: 100%;
+
+#top-container{
+  background-color: white;
+  border: 10px;
+  border-color: black;
+  border-style: solid;
+  padding: 20px;
+}
+
+
+#middle-container{
+  background-color: purple;
+  border: 20px;
+  border-color: black;
+  border-style: solid;
+  margin: 0px 0px 0px 260px;
+}
+
+#bottom-container{
+  background-color: blue;  
+  border: 10px;
+  border-color: black;
+  border-style: solid;
+  margin: 0px 0px 0px 500px;
+}
+
+.square200{
+  height: 200px;
+  width: 200px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.sliding-background {
+  background: url("images/tree.png") repeat-x;
+  background-color: transparent;
+  height: 500px;
+  width: 5076px;
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0); /* The image width */
+  }
+}
+
+
+body{
+  background-color: #B9E9FC;
+  margin: 10;
+}
+
+hr{
+  background-color:#B9E9FC;
+/*       border-style:none; */
+  border: 8px dotted white;
+  border-style: none none dotted;
+/*   class: dashed-line; */
+  height:0px;
+  width: 80%;
+}
+
+h1{
+  color: #19376D;
+  margin-top: 0;
+}
+
+h2{
+  color: #19376D;
+}
+
+h3{
+  color: #19376D;
 }
