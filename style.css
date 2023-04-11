@@ -1,4 +1,13 @@
 
+#styledimg{
+  background-image: src="images/petals.png" alt="petals";
+  background-attachment: fixed, scroll;
+  background-repeat: no-repeat, repeat-y;
+
+  height: 100px;
+  width: 100px;
+}
+
 #top-container{
   background-color: white;
   border: 10px;
@@ -27,29 +36,17 @@
 .square200{
   height: 200px;
   width: 200px;
+
+/*   background-image: src="images/falling.gif" alt="petals";
+  background-attachment: fixed, scroll;
+  background-repeat: no-repeat, repeat-y; */
 }
 
-.container {
-  overflow: hidden;
-}
-
-.sliding-background {
-  background: url("images/tree.png") repeat-x;
-  background-color: transparent;
-  height: 500px;
-  width: 5076px;
-  animation: slide 60s linear infinite;
-}
-
-@keyframes slide {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-1692px, 0, 0); /* The image width */
-  }
-}
-
+/* p{
+  background-image: src="images/petals.png" alt="petals";
+  background-attachment: fixed, scroll;
+  background-repeat: no-repeat, repeat-y;
+} */
 
 body{
   background-color: #B9E9FC;
