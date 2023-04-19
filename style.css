@@ -1,4 +1,37 @@
-html {
-  height: 100%;
-  width: 100%;
+.top-container{
+  background-color: #B9E9FC;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+body{
+  background-color: #B9E9FC;
+  margin: 10px;
+  text-align: center;
+  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+hr{
+  background-color:#B9E9FC;
+/*       border-style:none; */
+  border: 8px dotted white;
+  border-style: none none dotted;
+/*   class: dashed-line; */
+  height:0px;
+  width: 80%;
+}
+
+h1{
+  color: #19376D;
+  font-family: 'Amatic SC', cursive;
+}
+
+h2{
+  color: #19376D;
+  font-family: 'Amatic SC', cursive;
+}
+
+h3{
+  color: #19376D;
 }
